@@ -1,0 +1,5 @@
+const newObject = require('./newtest')
+let classObj = new newObject("Passed", "Second")
+let classObj2 = new newObject("Test")
+console.log(classObj.print())
+console.log(classObj2.print())
